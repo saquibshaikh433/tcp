@@ -14,17 +14,25 @@ open the clone folder on vscode.
 
 conda create -p "env name" python==3.8 -y (y standfor allow yes while downloading)
 
+conda activate vnev/
+
 '''
 
 6. create requirements.txt file  and install (pip install -r requirements.txt)
 
 7. configure git user name and email 
     1. git config --global user.name "Najmus Saquib"
-    2. git config --global user.email "saquibshauikh433@gmail.com"
+    2. git config --global user.email "email address"
 
 8. add file to github 
     1. git add " filename" to add single file 
     2. git add . ----to add all file to github
     3. git status --- to check the status of github
 
-9. 
+9. git commit 
+    1. git commit -m "commited requirments.txt and Readme file"
+    2. git push origin main.
+
+10.create templates folder and create html file inside for render templates.
+
+
