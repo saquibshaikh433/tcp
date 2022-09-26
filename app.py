@@ -37,5 +37,5 @@ def prediction():
     return render_template("home.html", show_results="prediction sessions on given situation is {}".format(output))
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=False, port=int(os.environ.get("PORT", 5000)), host='0.0.0.0')
 
