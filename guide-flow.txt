@@ -1,3 +1,0 @@
-create new repo om github with project name.
-clone the reposity on local folder using git clone "repo name".(git cli)
-open the clone folder on vscode.
