@@ -1,7 +1,7 @@
 STEPS:
 1. create one repo 
 2. create empty folder on local
-3.
+3.git int , git add git config --global , git status, git branch , git checkout , git switch, git push origin main , git remote -v.
 4.
 5.
 6.
