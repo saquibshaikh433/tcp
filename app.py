@@ -5,6 +5,8 @@ import json
 import os 
 from flask import Flask, render_template, jsonify, app, url_for, request
 
+"adding dummay code in app.py"
+
 app = Flask(__name__)
 
 pkl_path = r"C:\Users\najmus.s\Desktop\Jupyter-notebook\end-2-end-deployment\tcp\saved_model"
