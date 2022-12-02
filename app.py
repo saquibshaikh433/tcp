@@ -34,7 +34,7 @@ def prediction():
     print(df)
     input = sc.transform(np.array(df).reshape(1,-1))
     output = model.predict(input)[0]
-    return render_template("home.html", show_results="prediction sessions on given situation is {}".format(output))
+    return render_template("home.html", show_results="{}".format(int(output)))
 
 if __name__=="__main__":
     app.run(debug=True)

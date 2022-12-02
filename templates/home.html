@@ -11,7 +11,7 @@
 <body>
     <div class="login">
 
-        <h1><b> Tcp web application </b></h1>
+        <h1 style="color: rgb(0,200,66)"><b> Tcp web application </b></h1>
     
         <form action="{{ url_for('prediction')}}"method="post">
           <input type="text" name="channel" placeholder="channel" required="required" /><br><br>
@@ -20,13 +20,11 @@
             <input type="text" name="month" placeholder="month" required="required" /><br><br>
             <input type="text" name="day" placeholder="day" required="required"/><br><br> 
     
-            <button type="submit" class="btn btn-primary btn-block btn-large">Predict-sessions</button>
+            <button style="color:rgb(241, 35, 12)" type="submit" class="btn btn-primary btn-block btn-large">Predict-sessions</button>
         </form>
-       <br>
-       <br>
-         
+
      </div>
-     <b>{{show_results}}</b>
+     <h1><b style="color:rgb(96, 245, 42)"">{{show_results}}</b></h1>
 
 
 
